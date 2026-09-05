@@ -177,6 +177,8 @@ class TestTwoStageDCAPaperBroker(unittest.TestCase):
 
         summary = self.broker.get_account_summary(current_price=62000.0)
         self.assertEqual(summary["stage"], 0)
+        self.assertIn("SOLD (In Cash - 100% USDT)", summary["stage_desc"])
+
     def test_portfolio_calculation_and_reporting(self):
         """Validates all metrics used in the /portfolio command: starting capital, cash left, equity, trade count, net PnL."""
         # 1. Start with $100
