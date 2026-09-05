@@ -1,0 +1,18 @@
+{
+  "exchange": "MEXC",
+  "symbol": "BTCUSDT",
+  "timeframe": "15m",
+  "pivot_length": 10,
+  "risk_reward_ratio": 1.5,
+  "sl_buffer_pct": 0.002,
+  "initial_position_size_pct": 0.75,
+  "dip_position_size_pct": 0.25,
+  "dip_trigger_pct": 0.015,
+  "initial_balance": 100.0,
+  "poll_interval_seconds": 10,
+  "trading_enabled": true,
+  "telegram_bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
+  "telegram_admin_id": "YOUR_TELEGRAM_ADMIN_ID",
+  "mexc_api_key": "YOUR_MEXC_API_KEY",
+  "mexc_secret_key": "YOUR_MEXC_SECRET_KEY"
+}
